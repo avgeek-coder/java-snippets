@@ -1,6 +1,6 @@
 import java.util.* ;
 class Employee {
-    int eno, age ;
+    int eno, age,num ;
     double basic,da,hra,pf,net=0 ;
     String ename ;
     Scanner sc = new Scanner(System.in) ;
