@@ -2,7 +2,7 @@ import java.util.* ;
 class linear_search {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in) ;
-        float a[] = new float[15] ;
+        float a[] = new float[15] ; //declaration of array elements
         System.out.println("Input 15 floating point numbers") ;
         for(int i=0 ; i<15 ; i++) {
             a[i] = sc.nextFloat() ;
